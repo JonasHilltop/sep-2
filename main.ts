@@ -130,7 +130,7 @@ forever(function () {
         game.setGameOverScoringType(game.ScoringType.HighScore)
     }
     if (info.score() == 5) {
-        game.showLongText("Tillykke du tændte de vedvarende energikilder og slukkede for de fossile brændsler. Tænd for Generatorne i datacenteret nu!", DialogLayout.Bottom)
+        game.showLongText("\"Tillykke! Du har aktiveret de vedvarende energikilder og slukket for de fossile brændsler. Nu er det tid til at tænde generatorerne i datacenteret!\"", DialogLayout.Bottom)
         info.changeScoreBy(1)
     }
 })
