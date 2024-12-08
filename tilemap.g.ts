@@ -39,15 +39,9 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile18 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile22 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile20 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile21 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
-    export const tile23 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
-    export const tile19 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile24 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
@@ -58,6 +52,32 @@ namespace myTiles {
     export const tile28 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile27 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile29 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile30 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile23 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile19 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile31 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile32 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile35 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile22 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile33 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile36 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile34 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile37 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile38 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -119,7 +139,16 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
             case "level":
-            case "level3":return tiles.createTilemap(hex`1900190012131111110909090909090308090909090f0f0f0f0f0f0f0f13111111090909090909090308090909090f1f1f1f1f1f1f0f11111010101010100909090308090909090f1f202020201f0f11111010101010102306060108090909090f1f1f1f1f1f1f0f11091010101010100405050108090909090f1f202020201f0f0e091010101010100909090308090909090f1f1f1f1f1f1f0f0e090909090909090909090301060606061f1f202020201f0f0e090909090909090909090301050505051f1f1f1f1f1f1f0f0e090909090909090909090308090909090f0f0f0f0f0f0f0f0e09090909090909090909030809090909090909090909090d0e090909090909090909090308090909091b1a191b1a19090d0e090909090909090909090308090909091d16181d1618090d0e090909090902060606060101060607091c15171c1517090d0e27270909090301050505050505010809091409091409090d0e212124060601080909090909090301071b1a191b1a19090d0e0405050505010809090909090904051e1d16181d1618090d0e090909090903080909090909090909091c15171c1517090d0e09090909090308090909090909090909091409091409090d0909090909090308090909090909090909090909090909090d0e27270909090301060606060606060606060709090909090d0e21212506060101050505050505050505010809090909090d0e04050505050522090909090909090909030809092727090d0e09090909090909090909090909090909030106262121090d0e09090909090909090909090909090909040505050522090d0a0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0c`, img`
+            case "level3":return tiles.createTilemap(hex`1900190012131111110909090909090308090909090f0f0f0f0f0f0f0f13111111090909090909090308090909090f1f1f1f1f1f1f0f11111010101010100909090308090909090f1f202020201f0f11111010101010102306060108090909090f2b282828281f0f11091010101010100405050108090909090f1f202020201f0f0e091010101010100909090308090909090f2a282828281f0f0e090909090909090909090301060606061f1f202020201f0f0e090909090909090909090301050505051f29282828281f0f0e090909090909090909090308090909090f0f0f0f0f0f0f0f0e09090909090909090909030809090909090909090909090d0e090909090909090909090308090909091b1a191b1a19090d0e090909090909090909090308090909091d16181d1618090d0e090909090902060606060101060607091c15171c1517090d0e27270909090301050505050505010809091409091409090d0e212124060601080909090909090301071b1a191b1a19090d0e0405050505010809090909090904051e1d16181d1618090d0e090909090903080909090909090909091c15171c1517090d0e09090909090308090909090909090909091409091409090d0909090909090308090909090909090909090909090909090d0e27270909090301060606060606060606060709090909090d0e21212506060101050505050505050505010809090909090d0e04050505050522090909090909090909030809092727090d0e09090909090909090909090909090909030106262121090d0e09090909090909090909090909090909040505050522090d0a0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0c`, img`
+22...............22222222
+2................2......2
+.................2......2
+.................2......2
+.................2......2
+.................2......2
+........................2
+........................2
+.................22222222
 .........................
 .........................
 .........................
@@ -136,16 +165,7 @@ namespace myTiles {
 .........................
 .........................
 .........................
-.........................
-.........................
-.........................
-.........................
-.........................
-.........................
-.........................
-.........................
-.........................
-`, [myTiles.transparency16,sprites.castle.tilePath5,sprites.castle.tilePath1,sprites.castle.tilePath4,sprites.castle.tilePath7,sprites.castle.tilePath8,sprites.castle.tilePath2,sprites.castle.tilePath3,sprites.castle.tilePath6,myTiles.tile3,sprites.skillmap.islandTile6,sprites.skillmap.islandTile7,sprites.skillmap.islandTile8,sprites.skillmap.islandTile5,sprites.skillmap.islandTile3,sprites.builtin.brick,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,sprites.dungeon.floorLight2,myTiles.tile20,myTiles.tile21,sprites.castle.tilePath9,myTiles.tile23,myTiles.tile24,myTiles.tile25,myTiles.tile26,myTiles.tile28,myTiles.tile27], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.castle.tilePath5,sprites.castle.tilePath1,sprites.castle.tilePath4,sprites.castle.tilePath7,sprites.castle.tilePath8,sprites.castle.tilePath2,sprites.castle.tilePath3,sprites.castle.tilePath6,myTiles.tile3,sprites.skillmap.islandTile6,sprites.skillmap.islandTile7,sprites.skillmap.islandTile8,sprites.skillmap.islandTile5,sprites.skillmap.islandTile3,sprites.builtin.brick,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,sprites.dungeon.floorLight2,myTiles.tile20,myTiles.tile21,sprites.castle.tilePath9,myTiles.tile23,myTiles.tile24,myTiles.tile25,myTiles.tile26,myTiles.tile28,myTiles.tile22,myTiles.tile34,myTiles.tile37,myTiles.tile38], TileScale.Sixteen);
         }
         return null;
     })
@@ -189,16 +209,10 @@ namespace myTiles {
             case "tile17":return tile17;
             case "myTile16":
             case "tile18":return tile18;
-            case "myTile20":
-            case "tile22":return tile22;
             case "myTile18":
             case "tile20":return tile20;
             case "myTile19":
             case "tile21":return tile21;
-            case "myTile21":
-            case "tile23":return tile23;
-            case "myTile17":
-            case "tile19":return tile19;
             case "myTile22":
             case "tile24":return tile24;
             case "myTile23":
@@ -209,6 +223,32 @@ namespace myTiles {
             case "tile28":return tile28;
             case "myTile25":
             case "tile27":return tile27;
+            case "myTile27":
+            case "tile29":return tile29;
+            case "myTile28":
+            case "tile30":return tile30;
+            case "myTile21":
+            case "tile23":return tile23;
+            case "myTile17":
+            case "tile19":return tile19;
+            case "myTile29":
+            case "tile31":return tile31;
+            case "myTile30":
+            case "tile32":return tile32;
+            case "myTile33":
+            case "tile35":return tile35;
+            case "myTile20":
+            case "tile22":return tile22;
+            case "myTile31":
+            case "tile33":return tile33;
+            case "myTile34":
+            case "tile36":return tile36;
+            case "myTile32":
+            case "tile34":return tile34;
+            case "myTile35":
+            case "tile37":return tile37;
+            case "myTile36":
+            case "tile38":return tile38;
         }
         return null;
     })
